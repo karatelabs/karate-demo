@@ -11,7 +11,7 @@ A small [Karate](https://github.com/karatelabs/karate) project. No Maven, no Gra
 ## VS Code (start here)
 
 1. Download this repo (**Code → Download ZIP**, then extract) or `git clone` it.
-2. In VS Code: **File → Open Folder…**, pick `karate-demo`, and trust it.
+2. In VS Code: **File → Open Folder…**, pick the folder that holds `karate-pom.json`, and trust it. Windows' **Extract All** puts it one level down: `karate-demo-main\karate-demo-main`.
 3. Install the recommended **Karate** extension when VS Code offers it.
 4. **Karate Setup** opens: click **Install CLI**, then **Run Setup** (downloads Java and Karate, no admin rights needed), then **Refresh**.
 5. Sign in from the License card. Open a `.feature` file and click ▶ in the gutter.
@@ -27,9 +27,21 @@ Running tests from the editor needs Karate Plus; debugging needs Pro.
 
 ## Karate Xplorer
 
-**Open Karate project folder** and pick `karate-demo`. Running needs Xplorer Premium.
+**Open**, and pick `karate-pom.json` in `karate-demo`. Running needs Xplorer Premium.
 
 ## Command line
+
+Install the Karate CLI once (no admin rights needed); it downloads Java and Karate:
+
+```
+# Windows (PowerShell)
+iex "& { $(irm https://karate.sh/install.ps1) } -All"
+
+# macOS / Linux
+curl -fsSL https://karate.sh/install.sh | sh -s -- --all
+```
+
+Then, in a new terminal:
 
 ```
 karate run

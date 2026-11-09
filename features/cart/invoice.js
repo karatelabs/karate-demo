@@ -1,4 +1,4 @@
-function(items, taxRate) {
+function invoice(items, taxRate) {
   var subtotal = 0;
   items.forEach(item => subtotal += item.price * item.qty);
   var tax = subtotal * taxRate;
