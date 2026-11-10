@@ -18,6 +18,10 @@ A small [Karate](https://github.com/karatelabs/karate) project. No Maven, no Gra
 
 Running tests from the editor needs Karate Plus; debugging needs Pro.
 
+### Follow along with the video
+
+The video debugs a failing test. To see the same failure, open `features/cart/invoice.js` and on line 3 change `item.price * item.qty` to `item.price`, then run `cart.feature`: the invoice match fails with a subtotal of 7 where 11 is expected. Set a breakpoint on line 4 and debug to see why; undo the change to go green again.
+
 ## IntelliJ IDEA (2026.1+)
 
 1. Do steps 1 and 4 above once, or run `karate setup --all`, so Karate is in `~/.karate/dist` (`%USERPROFILE%\.karate\dist` on Windows).
