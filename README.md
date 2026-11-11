@@ -10,13 +10,15 @@ A small [Karate](https://github.com/karatelabs/karate) project. No Maven, no Gra
 
 ## VS Code (start here)
 
+Watch it first: [Karate for VS Code on Windows: write it, run it, debug it](https://youtu.be/FR57JlOlrbA) (2:16). Step by step: the [Windows Quick Start](https://docs.karatelabs.io/getting-started/vscode-windows).
+
 1. Download this repo (**Code → Download ZIP**, then extract) or `git clone` it.
 2. In VS Code: **File → Open Folder…**, pick the folder that holds `karate-pom.json`, and trust it. Windows' **Extract All** puts it one level down: `karate-demo-main\karate-demo-main`.
 3. Install the recommended **Karate** extension when VS Code offers it.
 4. **Karate Setup** opens: click **Install CLI**, then **Run Setup** (downloads Java and Karate, no admin rights needed), then **Refresh**.
 5. Sign in from the License card. Open a `.feature` file and click ▶ in the gutter.
 
-Running tests from the editor needs Karate Plus; debugging needs Pro.
+Running tests from the editor needs IDE Plus; debugging needs IDE Pro.
 
 ### Follow along with the video
 
